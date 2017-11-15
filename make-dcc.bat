@@ -1,11 +1,10 @@
 git clone --depth=1 git@github.com:synopse/mORMot.git
 mkdir output
-fpc -MDelphi -vewnqh -vm11030,11031,9034^
- -FlmORMot^
- -FimORMot^
- -FomORMot^
- -FumORMot^
- -FUoutput^
+dcc32^
+ -ImORMot^
+ -VmORMot^
+ -OomORMot^
+ -Noutput^
  -oserver.exe^
  server.pas
 
