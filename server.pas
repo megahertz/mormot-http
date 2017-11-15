@@ -1,4 +1,7 @@
 program server;
+
+{$APPTYPE CONSOLE}
+
 uses
   {$I SynDprUses.inc}
   SynCrtSock;
